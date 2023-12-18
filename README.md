@@ -1,6 +1,6 @@
 # mysqlite
 
-A new Flutter project.
+A Udemy course on SQLite DB with a full project of a ToDo App
 
 ## Getting Started
 
