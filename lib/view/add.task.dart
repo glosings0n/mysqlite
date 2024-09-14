@@ -3,7 +3,6 @@ import 'package:delightful_toast/toast/utils/enums.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intl/intl.dart';
 import 'package:gap/gap.dart';
 import 'package:delightful_toast/delight_toast.dart';
 
@@ -143,10 +142,10 @@ class AddTask extends StatelessWidget {
                               color: Colors.deepOrange,
                               leading: Icon(Icons.check_circle_rounded),
                             ),
-                            animationDuration: Duration(seconds: 1),
+                            animationDuration: const Duration(seconds: 1),
                             autoDismiss: true,
                             position: DelightSnackbarPosition.bottom,
-                            snackbarDuration: Duration(seconds: 3),
+                            snackbarDuration: const Duration(seconds: 3),
                             animationCurve: Curves.easeInOutBack,
                           ).show(context);
                         }

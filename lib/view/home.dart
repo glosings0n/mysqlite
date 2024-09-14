@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     return BlocConsumer<TodoCubit, TodoStates>(
       listener: (context, state) {},
       builder: (context, state) {
-        dynamic cubit = TodoCubit.get(context);
+        final cubit = TodoCubit.get(context);
         return Scaffold(
           appBar: AppBar(
             title: Text('My task'.tr()),
